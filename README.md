@@ -50,7 +50,7 @@ cargo install cargo-audit    # checks dependencies for known vulnerabilities
 
 ```bash
 # 1. Clone
-git clone https://github.com/runrbee/r-backend.git
+git clone https://github.com/Runrbee/r-backend.git
 cd r-backend
 
 # 2. Create your local config (never commit .env)
@@ -75,7 +75,7 @@ curl http://localhost:8080/health
 Settings come from environment variables. Copy `.env.example` to `.env` for local work.
 
 ```bash
-# .env.example  (placeholders only; never put real secrets in this file)
+# .env.example  (placeholders only)
 APP_ENV=development
 APP_HOST=0.0.0.0
 APP_PORT=8080
@@ -181,7 +181,7 @@ These come from the design documents. Break them and the app becomes unsafe or i
 
 ## API documentation
 
-See `docs/api.md` for the endpoint list, status transitions, and rules. Once the code exists, generate an OpenAPI spec from it (for example with `utoipa`) and treat that as the source of truth.
+See `docs/api.md` for the endpoint list, status transitions, and rules. Once the code exists, generate an OpenAPI spec from it (for example, with `utoipa`) and treat that as the source of truth.
 
 ## Documentation
 
@@ -214,10 +214,10 @@ When you change a decision that affects the product, the API, or the schema, upd
 
 ## Security
 
-Please do not report security problems in public issues. Email **security@<your-domain>** with the details.
+Please do not report security problems in public issues. Email **onuhtheola3@gmail.com** with the details.
 
 This service handles money and personal identity data. Have an experienced developer review the authentication, payments, and KYC code, and have a lawyer review the legal points, before real users use it.
 
 ## License
 
-Not yet licensed for reuse. All rights reserved by <Your company name>.
+Not yet licensed for reuse. All rights reserved by Runrbee.
